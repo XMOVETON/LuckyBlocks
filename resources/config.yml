@@ -1,0 +1,44 @@
+---
+Time: 3
+Position:
+  Pos1:
+    x: 0
+    "y": 0
+    z: 0
+  Pos2:
+    x: 0
+    "y": 0
+    z: 0
+LuckyBlocks:
+  iron:
+    id: 42
+    change: 100
+    message: '§eLucky-Blocks §8• §fВы использовали §7железный §fблок и получили§7: §e{prize}$'
+    prizes:
+      - 5000
+    command: 'givemoney {player} {prize}'
+  gold:
+    id: 41
+    change: 5
+    message: '§eLucky-Blocks §8• §fВы использовали §6золотой §fблок и получили§7: §e{prize}$'
+    prizes:
+      - 7000
+      - 10000
+    command: 'givemoney {player} {prize}'
+  diamond:
+    id: 57
+    change: 3
+    message: '§eLucky-Blocks §8• §fВы использовали §bалмазный §fблок и получили§7: §e{prize}$'
+    prizes:
+      - 1000
+      - 15000
+    command: 'givemoney {player} {prize}'
+  emerald:
+    id: 133
+    change: 1
+    message: '§eLucky-Blocks §8• §fВы использовали §aизумрудный §fблок и получили§7: §e{prize}$'
+    prizes:
+      - 15000
+      - 40000
+    command: 'givemoney {player} {prize}'
+...
